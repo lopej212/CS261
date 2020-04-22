@@ -1,0 +1,9 @@
+Jose Manuel Lopez Alcala
+CS 261 Assignment 2 Part 1
+
+Question 1:
+
+It would take 24 units of cost. First 8 from the initial pushes until it fills up. Then it would take an extra 8 for reallocation + 1 for new push, putting it a current total of 17. Plus the final 7 pushes that fill up the remaining space of the array, which give a total of 24. For 32 pushes it would take 56 total cost. As N grows large, the time complexity goes to O(1).
+
+Question 2: 
+For 16 consecutive pushes it will take 60 units of cost. For 32 consecutive pushes it will take 260 units of cost. As N grows large, the time complexity goes to O(n). 
